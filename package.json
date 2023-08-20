@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "NIVEDIT INDRAS",
@@ -20,6 +21,7 @@
     "mongoose": "^6.10.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "nodemon": "^3.0.1"
   }
 }
